@@ -21,3 +21,14 @@
 |H4k20me1        |  http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneNhekH4k20me1StdAlnRep1.bam|
 
 NhekControl  - http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneNhekControlStdAlnRep1.bam
+
+
+### ChromHMM
+
+| transitions          |  Emission | overlap|
+:-------------------------:|:-------------------------:|:-------------------------:
+<img src="ChromHMM/transitions_10.png" width="352" height="380">  |  <img src="ChromHMM/emissions_10.png" width="332" height="452">|<img src="ChromHMM/NHEK_10_overlap.png" width="412" height="600">
+
+| RefSeqTSS           | RefSeqTES |
+:-------------------------:|:-------------------------:
+<img src="ChromHMM/NHEK_10_RefSeqTSS_neighborhood.png" width="672" height="516">|<img src="ChromHMM/NHEK_10_RefSeqTES_neighborhood.png" width="672" height="516">  
