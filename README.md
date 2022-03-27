@@ -39,13 +39,13 @@ NhekControl  - wgEncodeBroadHistone/wgEncodeBroadHistoneNhekControlStdAlnRep1.ba
 
 |Состояние|Эпигенетический тип|Встречаемость в гистоновых модификациях|Описание|Изображение из USCC|
 |----|-----|-------|------|------|
-|1 |   |Не встречается | | ![](./images/image1.png) |
-|2 |   |Почти не встречается, кроме <ul><li>H3K27me3| |![](./images/image2.png) |
-|3 |   |Во всех, но чаще всего в: <ul><li> H3k4me3 <li> H3k4me2 <li> H3K27me3  <li> H3K9ac <li> H3k4me1| |![](./images/image3.png) |
-|4 |   |Почти во всех, но чаще всего в: <ul><li> H3k4me3 <li> H3K9ac <li> H3K27ac  <li> H3k4me2 <li> H3K79me2 | |![](./images/image4.png) |
-|5 |   |Почти во всех, но чаще всего в: <ul><li> H3K27ac <li> H3k4me2<li> H3k4me1 <li> H3K9ac  | |![](./images/image5.png) |
-|6 |   |Во многих, но чаще всего в:  <ul><li>H3k4me1  <li>H3k4me2 <li>H3K27ac | |![](./images/image6.png) |
-|7 |   |Почти во всех, но чаще всего в: <ul><li>H3k4me1  <li>H3k4me2 <li>H3K79me2  <li>H3K27ac  | |![](./images/image7.png) |
-|8 |   |Почти не встречается, кроме: <ul><li>H3K79me2 | |![](./images/image8.png) |
-|9 |   |Почти не встречается, кроме: <ul><li>H3K79me2 <li>H3K36me3| |![](./images/image9.png) |
-|10 |  |Почти не встречается, кроме: <ul><li>H3K36me3 | |![](./images/image10.png) |
+|1 |   |Не встречается |<ul><li>Показывает низкий сигнал <li>Чаще всего ассоциировано с:<ul><li> Genome <li> laminB1lads| ![](./images/image1.png) |
+|2 |   |Почти не встречается, кроме <ul><li>H3K27me3|<ul><li>Показывает низкий сигнал <li>Чаще всего ассоциировано с: <ul><li>laminB1lads  <li>RefSeqTES <li>RefSeqExon |![](./images/image2.png) |
+|3 |   |Во всех, но чаще всего в: <ul><li> H3k4me3 <li> H3k4me2 <li> H3K27me3  <li> H3K9ac <li> H3k4me1|Чаще всего ассоциировано с: <ul><li>CpGIsland <li>RefSeqTSS <li>RefSeqExon <li>RefSeqTSS2kb <li>RefSeqTES|![](./images/image3.png) |
+|4 |   |Почти во всех, но чаще всего в: <ul><li> H3k4me3 <li> H3K9ac <li> H3K27ac  <li> H3k4me2 <li> H3K79me2 |<ul><li>Показывает высокий сигнал <li>Чаще всего ассоциировано с: <ul><li>CpGIsland <li>RefSeqExon <li>RefSeqTSS <li>RefSeqTSS2kb <li>RefSeqTES|![](./images/image4.png) |
+|5 |   |Почти во всех, но чаще всего в: <ul><li> H3K27ac <li> H3k4me2<li> H3k4me1 <li> H3K9ac  |<ul><li>Показывает высокий сигнал <li>Чаще всего ассоциировано с: <ul><li>RefSeqTES <li>laminB1lads|![](./images/image5.png) |
+|6 |   |Во многих, но чаще всего в:  <ul><li>H3k4me1  <li>H3k4me2 <li>H3K27ac |Чаще всего ассоциировано с: <ul><li>laminB1lads <li>RefSeqTES|![](./images/image6.png) |
+|7 |   |Почти во всех, но чаще всего в: <ul><li>H3k4me1  <li>H3k4me2 <li>H3K79me2  <li>H3K27ac  |Чаще всего ассоциировано с: <ul><li>RefSeqGene <li>RefSeqTES|![](./images/image7.png) |
+|8 |   |Почти не встречается, кроме: <ul><li>H3K79me2 |<ul><li>Показывает низкий сигнал <li>Чаще всего ассоциировано с: <ul><li>RefSeqGene|![](./images/image8.png) |
+|9 |   |Почти не встречается, кроме: <ul><li>H3K79me2 <li>H3K36me3|Чаще всего ассоциировано с: <ul><li>RefSeqGene|![](./images/image9.png) |
+|10 |  |Почти не встречается, кроме: <ul><li>H3K36me3 |<ul><li>Показывает низкий сигнал <li>Чаще всего ассоциировано с: <ul><li>RefSeqExon <li>RefSeqGene <li>RefSeqTES|![](./images/image10.png) |
