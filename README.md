@@ -52,9 +52,10 @@ NhekControl  - wgEncodeBroadHistone/wgEncodeBroadHistoneNhekControlStdAlnRep1.ba
 |9 |Transcribed|Почти не встречается, кроме: <ul><li>H3K79me2 <li>H3K36me3|<ul><li>Имеет очень низкую активность, но попадает на ген => транскрибируемый участок гена.<li>Чаще всего ассоциировано с: <ul><ul><li>RefSeqGene|![](./images/image9_.png) |
 |10 |Transcribed|Почти не встречается, кроме: <ul><li>H3K36me3 |<ul><li>Имеет очень низкую активность, но попадает на ген => транскрибируемый участок гена.<li>Показывает низкий сигнал <li>Чаще всего ассоциировано с: <ul><li>RefSeqExon <li>RefSeqGene <li>RefSeqTES|![](./images/image10_.png) |
   
+## Часть 2
+![](./images/bonus.png)
   
-  
-### Команды 
+## Команды 
 ### Создание файла cellmarkfiletable.txt
 ```python
 import os
@@ -89,7 +90,3 @@ with open(f'learnData/NHEK_10_dense.bed', 'r') as f:
         arr[3] = arr[3]+'_'+types[int(arr[3])-1]
         f_new.write('\t'.join(arr))
 ```
-  
- ![](./images/bonus.png)
-
-  
