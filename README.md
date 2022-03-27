@@ -1,5 +1,7 @@
 # hse_hw3_chromhmm
 
+Ссылка на [Google Colab](https://colab.research.google.com/drive/1LyUznbDUSu8_IxyuRobBwb9Qk4I8vlF8?usp=sharing)
+
 ## Часть 1
 
 #### Клеточная линия -  NHEK ( GM23248 не нашлось )
@@ -49,3 +51,28 @@ NhekControl  - wgEncodeBroadHistone/wgEncodeBroadHistoneNhekControlStdAlnRep1.ba
 |8 |Transcribed|Почти не встречается, кроме: <ul><li>H3K79me2 |<ul><li>Данное состояние попадает на интрон<li>Имеет очень низкую активность, но попадает на ген=> транскрибируемый участок гена.<li>Показывает низкий сигнал <li>Чаще всего ассоциировано с: <ul><li>RefSeqGene|![](./images/image8_.png) |
 |9 |Transcribed|Почти не встречается, кроме: <ul><li>H3K79me2 <li>H3K36me3|<ul><li>Имеет очень низкую активность, но попадает на ген => транскрибируемый участок гена.<li>Чаще всего ассоциировано с: <ul><ul><li>RefSeqGene|![](./images/image9_.png) |
 |10 |Transcribed|Почти не встречается, кроме: <ul><li>H3K36me3 |<ul><li>Имеет очень низкую активность, но попадает на ген => транскрибируемый участок гена.<li>Показывает низкий сигнал <li>Чаще всего ассоциировано с: <ul><li>RefSeqExon <li>RefSeqGene <li>RefSeqTES|![](./images/image10_.png) |
+  
+  
+  
+### Команды 
+  
+#### Бонус
+```python
+types = ['Heterochromatin', 'Heterochromatin', 'Enhancer', 'Enhancer', 'Repressed', 'Repressed', 'Enhancer', 'Transcribed', 'Transcribed', 'Transcribed']
+with open(f'learnData/NHEK_10_dense.bed', 'r') as f:
+  with open(f'learnData/NHEK_10_dense_new.bed', 'a') as f_new:
+    lines = f.readlines()
+    flag = True
+    for line in lines:
+      if flag:
+        flag = False
+        f_new.write(line)
+      else:
+        arr = line.split('\t')
+        arr[3] = arr[3]+'_'+types[int(arr[3])-1]
+        f_new.write('\t'.join(arr))
+```
+  
+  ![bonus](https://user-images.githubusercontent.com/75699392/160299311-3603899a-c64a-4e9c-a110-3bafc030cb1b.png)
+
+  
