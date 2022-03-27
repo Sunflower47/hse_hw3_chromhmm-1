@@ -55,8 +55,25 @@ NhekControl  - wgEncodeBroadHistone/wgEncodeBroadHistoneNhekControlStdAlnRep1.ba
   
   
 ### Команды 
+### Создание файла cellmarkfiletable.txt
+```python
+import os
+control = 'Control.bam'
+with open(f'cellmarkfiletable.txt', 'a') as the_file:
+  for file in os.listdir():
+    if file[-3:] == 'bam' and "Control" not in file:
+      the_file.write(f'NHEK\t{file[:-4]}\t{file}\t{control}\n')
+```
+### Binarize Bam
+```python
+!java -mx5000M -jar /content/ChromHMM/ChromHMM.jar BinarizeBam -b 200  /content/ChromHMM/CHROMSIZES/hg19.txt /content/ cellmarkfiletable.txt   binarizedData
+```
+### Learn Module
+```python
+!java -mx5000M -jar /content/ChromHMM/ChromHMM.jar LearnModel  -b 200 /content/binarizedData/ /content/learnData 10 hg19
+```
   
-#### Бонус
+### Бонус
 ```python
 types = ['Heterochromatin', 'Heterochromatin', 'Enhancer', 'Enhancer', 'Repressed', 'Repressed', 'Enhancer', 'Transcribed', 'Transcribed', 'Transcribed']
 with open(f'learnData/NHEK_10_dense.bed', 'r') as f:
