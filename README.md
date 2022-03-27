@@ -48,4 +48,4 @@ NhekControl  - wgEncodeBroadHistone/wgEncodeBroadHistoneNhekControlStdAlnRep1.ba
 |7 |   |Почти во всех, но чаще всего в: <ul><li>H3k4me1  <li>H3k4me2 <li>H3K79me2  <li>H3K27ac  | |
 |8 |   |Почти не встречается, кроме: <ul><li>H3K79me2 | |
 |9 |   |Почти не встречается, кроме: <ul><li>H3K79me2 <li>H3K36me3| |
-|10 |  |Не встречается, кроме: <ul><li>H3K36me3 | |
+|10 |  |Почти не встречается, кроме: <ul><li>H3K36me3 | |
