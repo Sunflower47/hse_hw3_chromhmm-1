@@ -73,6 +73,6 @@ with open(f'learnData/NHEK_10_dense.bed', 'r') as f:
         f_new.write('\t'.join(arr))
 ```
   
-  ![bonus](https://user-images.githubusercontent.com/75699392/160299311-3603899a-c64a-4e9c-a110-3bafc030cb1b.png)
+ ![](./images/bonus.png)
 
   
