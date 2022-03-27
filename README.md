@@ -39,13 +39,13 @@ NhekControl  - wgEncodeBroadHistone/wgEncodeBroadHistoneNhekControlStdAlnRep1.ba
 
 |Состояние|Эпигенетический тип|Встречаемость в гистоновых модификациях|Описание|Изображение из USCC|
 |----|-----|-------|------|------|
-|1 |   |Не встречается | |
-|2 |   |Почти не встречается, кроме <ul><li>H3K27me3| |
-|3 |   |Во всех, но чаще всего в: <ul><li> H3k4me3 <li> H3k4me2 <li> H3K27me3  <li> H3K9ac <li> H3k4me1| |
-|4 |   |Почти во всех, но чаще всего в: <ul><li> H3k4me3 <li> H3K9ac <li> H3K27ac  <li> H3k4me2 <li> H3K79me2 | |
-|5 |   |Почти во всех, но чаще всего в: <ul><li> H3K27ac <li> H3k4me2<li> H3k4me1 <li> H3K9ac  | |
-|6 |   |Во многих, но чаще всего в:  <ul><li>H3k4me1  <li>H3k4me2 <li>H3K27ac | |
-|7 |   |Почти во всех, но чаще всего в: <ul><li>H3k4me1  <li>H3k4me2 <li>H3K79me2  <li>H3K27ac  | |
-|8 |   |Почти не встречается, кроме: <ul><li>H3K79me2 | |
-|9 |   |Почти не встречается, кроме: <ul><li>H3K79me2 <li>H3K36me3| |
-|10 |  |Почти не встречается, кроме: <ul><li>H3K36me3 | |
+|1 |   |Не встречается | | ![](./images/image1.png) |
+|2 |   |Почти не встречается, кроме <ul><li>H3K27me3| |![](./images/image2.png) |
+|3 |   |Во всех, но чаще всего в: <ul><li> H3k4me3 <li> H3k4me2 <li> H3K27me3  <li> H3K9ac <li> H3k4me1| |![](./images/image3.png) |
+|4 |   |Почти во всех, но чаще всего в: <ul><li> H3k4me3 <li> H3K9ac <li> H3K27ac  <li> H3k4me2 <li> H3K79me2 | |![](./images/image4.png) |
+|5 |   |Почти во всех, но чаще всего в: <ul><li> H3K27ac <li> H3k4me2<li> H3k4me1 <li> H3K9ac  | |![](./images/image5.png) |
+|6 |   |Во многих, но чаще всего в:  <ul><li>H3k4me1  <li>H3k4me2 <li>H3K27ac | |![](./images/image6.png) |
+|7 |   |Почти во всех, но чаще всего в: <ul><li>H3k4me1  <li>H3k4me2 <li>H3K79me2  <li>H3K27ac  | |![](./images/image7.png) |
+|8 |   |Почти не встречается, кроме: <ul><li>H3K79me2 | |![](./images/image8.png) |
+|9 |   |Почти не встречается, кроме: <ul><li>H3K79me2 <li>H3K36me3| |![](./images/image9.png) |
+|10 |  |Почти не встречается, кроме: <ul><li>H3K36me3 | |![](./images/image10.png) |
